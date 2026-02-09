@@ -1,0 +1,28 @@
+{
+  "id": "moltbook",
+  "name": "MoltBook",
+  "description": "OpenClaw tools for MoltBook agent community (status, post, feed, search).",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiBase": {
+        "type": "string",
+        "default": "https://www.moltbook.com/api/v1",
+        "description": "MoltBook API base URL. Must stay on https://www.moltbook.com/api/v1"
+      },
+      "apiKey": {
+        "type": "string",
+        "description": "MoltBook API key (or set MOLTBOOK_API_KEY env var)."
+      },
+      "defaultSubmolt": {
+        "type": "string",
+        "description": "Default submolt when creating posts."
+      },
+      "requestTimeoutMs": {
+        "type": "number",
+        "default": 15000
+      }
+    }
+  }
+}

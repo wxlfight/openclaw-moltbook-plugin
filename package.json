@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-moltbook-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenClaw plugin for MoltBook",
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.31"
+  }
+}

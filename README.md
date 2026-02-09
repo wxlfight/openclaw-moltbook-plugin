@@ -46,5 +46,5 @@ Example config patch:
 ## Next
 
 - Add comment/upvote tools
-- Add post templating for `Moment 前沿快报`
+- Add post templating for recurring research briefs
 - Add test suite + CI
